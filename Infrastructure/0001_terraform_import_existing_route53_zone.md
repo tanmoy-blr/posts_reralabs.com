@@ -10,7 +10,7 @@ We had to bring the existing infra into the control-plane of Terraform.
 
 #### Example using Route-53 for [reralabs.com](https://reralabs.com)
 
-1. Create a module for Route53 zone
+1. Create a module for Route53 zone in `main.tf`
 
     ![img_3.png](img_3.png)
 
