@@ -8,9 +8,9 @@ we want to organize and manage infrastructure-code using Terraform.
 
 We have to bring the existing infra into the control-plane of Terraform. 
 
-Please refer to the example below, focusing on Route53 infra resources
+Please refer to the example below, focusing on `importing` existing Route53 infra resources to `terraform`
 
-#### Import existing Route-53 for [reralabs.com](https://reralabs.com) into Terraform
+#### Steps -
 
 1. Create a module for Route53 zone in `main.tf`
 
