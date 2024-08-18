@@ -3,12 +3,14 @@
 During the initial provisioning of [reralabs.com](https://reralabs.com), a lot of Route-53 entries on AWS were done manually.
 This was required for quick feedback loops.
 
-As we gathered user-input and standardize the infrastructure components,
-we wanted to organize and manage infrastructure-code using Terraform.
+As we gather user-input and standardize the infrastructure components,
+we want to organize and manage infrastructure-code using Terraform.
 
-We had to bring the existing infra into the control-plane of Terraform.
+We have to bring the existing infra into the control-plane of Terraform. 
 
-#### Example using Route-53 for [reralabs.com](https://reralabs.com)
+Please refer to the example below, focusing on Route53 infra resources
+
+#### Import existing Route-53 for [reralabs.com](https://reralabs.com) into Terraform
 
 1. Create a module for Route53 zone in `main.tf`
 
